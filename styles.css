@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #004AAD, #FDB813);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #004AAD;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección Hero */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://source.unsplash.com/1600x900/?money,finance') center/cover;
+    color: white;
+}
+
+.hero .btn {
+    background-color: #FDB813;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #FFD700;
+}
+
+/* Contenido */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content article {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #FDB813;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
