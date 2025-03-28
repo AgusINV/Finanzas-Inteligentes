@@ -1,159 +1,27 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Página Web</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Header (Encabezado) -->
-    <header>
-        <div class="header-container">
-            <!-- Logo -->
-            <div class="logo">
-                <img src="logo.png" alt="Logo de la empresa">
-            </div>
+<header>
+  <div class="container">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="/">
+        <img src="logo.png" alt="Logo de Finanzas"/>
+      </a>
+    </div>
 
-            <!-- Menú de navegación -->
-            <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#products">Productos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
+    <!-- Barra de Navegación -->
+    <nav class="nav">
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/educacion-financiera">Educación Financiera</a></li>
+        <li><a href="/herramientas-financieras">Herramientas Financieras</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
 
-            <!-- Barra de búsqueda (opcional) -->
-            <div class="search-bar">
-                <input type="text" placeholder="Buscar...">
-            </div>
-
-            <!-- Botones de acción -->
-            <div class="auth-buttons">
-                <button class="login-btn">Iniciar sesión</button>
-                <button class="signup-btn">Registrarse</button>
-            </div>
-        </div>
-    </header>
-</body>
-</html>
-<!-- Sección de Servicios -->
-<section id="services" class="services-section">
-    <div class="services-container">
-        <h2>Servicios</h2>
-        <div class="services-list">
-            <div class="service-card">
-                <h3>Servicio 1</h3>
-                <p>Descripción breve de tu servicio 1.</p>
-            </div>
-            <div class="service-card">
-                <h3>Servicio 2</h3>
-                <p>Descripción breve de tu servicio 2.</p>
-            </div>
-            <div class="service-card">
-                <h3>Servicio 3</h3>
-                <p>Descripción breve de tu servicio 3.</p>
-            </div>
-        </div>
+    <!-- Barra de Búsqueda -->
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar..." />
+      <button type="submit">Buscar</button>
     </div>
-</section>
-<!-- Sección de Testimonios -->
-<section id="testimonials" class="testimonials-section">
-    <div class="testimonials-container">
-        <h2>Lo que dicen nuestros clientes</h2>
-        <div class="testimonials-list">
-            <div class="testimonial-card">
-                <p>"Excelente servicio, la mejor atención que he recibido." - Cliente 1</p>
-            </div>
-            <div class="testimonial-card">
-                <p>"Muy recomendable, la experiencia fue única." - Cliente 2</p>
-            </div>
-            <div class="testimonial-card">
-                <p>"Un equipo profesional y dedicado. Muy satisfecho." - Cliente 3</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Sección de Servicios -->
-<section id="services" class="services-section">
-    <div class="services-container">
-        <h2>Servicios que ofrecemos</h2>
-        <div class="service-cards">
-            <div class="service-card">
-                <h3>Servicio 1</h3>
-                <p>Descripción breve de servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="service-card">
-                <h3>Servicio 2</h3>
-                <p>Descripción breve de servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="service-card">
-                <h3>Servicio 3</h3>
-                <p>Descripción breve de servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Sección de Testimonios -->
-<section id="testimonials" class="testimonials-section">
-    <div class="testimonials-container">
-        <h2>Lo que dicen nuestros clientes</h2>
-        <div class="testimonial-cards">
-            <div class="testimonial-card">
-                <p>"Excelente servicio, muy atentos y profesionales. Totalmente recomendados." - Juan Pérez</p>
-            </div>
-            <div class="testimonial-card">
-                <p>"Una experiencia increíble, siempre dispuestos a ayudar y resolver cualquier duda." - María Gómez</p>
-            </div>
-            <div class="testimonial-card">
-                <p>"Muy satisfecho con la calidad de los productos y atención. Definitivamente volveré." - Carlos Rodríguez</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Sección de Contacto -->
-<section id="contact" class="contact-section">
-    <div class="contact-container">
-        <h2>Contactanos</h2>
-        <p>Si tenés alguna pregunta, no dudes en ponerte en contacto con nosotros. ¡Estamos aquí para ayudarte!</p>
-        <form action="/submit-form" method="POST" class="contact-form">
-            <div class="form-group">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Tu correo" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Enviar</button>
-        </form>
-    </div>
-</section>
-<!-- Sección de Pie de Página -->
-<footer class="footer">
-    <div class="footer-container">
-        <div class="footer-logo">
-            <img src="logo-footer.png" alt="Logo" class="logo-footer">
-        </div>
-        <div class="footer-links">
-            <ul>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#privacy">Política de Privacidad</a></li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">Facebook</a>
-            <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">Twitter</a>
-            <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">Instagram</a>
-        </div>
-        <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
-    </div>
-</footer>
+  </div>
+</header>
