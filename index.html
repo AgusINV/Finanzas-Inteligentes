@@ -3,119 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invierte de Manera Inteligente</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tu Página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado -->
+    <!-- Header (Encabezado) -->
     <header>
-        <div class="hero">
-            <h1>Invierte de Manera Inteligente</h1>
-            <p>Aprende a tomar decisiones financieras acertadas con estrategias de inversión efectivas.</p>
-            <a href="#inversiones" class="btn-primary">Descubre más</a>
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo.png" alt="Logo de la empresa">
+            </div>
+
+            <!-- Menú de navegación -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Barra de búsqueda (opcional) -->
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+            </div>
+
+            <!-- Botones de acción -->
+            <div class="auth-buttons">
+                <button class="login-btn">Iniciar sesión</button>
+                <button class="signup-btn">Registrarse</button>
+            </div>
         </div>
     </header>
-
-    <!-- Menú de Navegación -->
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#educacion">Educación Financiera</a></li>
-            <li><a href="#inversiones">Inversiones</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <!-- Sección Educación Financiera -->
-    <section id="educacion" class="section">
-        <h2>Educación Financiera</h2>
-        <p>Conoce los principios básicos para tomar decisiones inteligentes sobre tu dinero.</p>
-        <div class="content-grid">
-            <div class="content-item">
-                <h3>Cómo ahorrar para la jubilación</h3>
-                <p>Descubre estrategias efectivas para ahorrar y asegurar tu futuro financiero.</p>
-            </div>
-            <div class="content-item">
-                <h3>Planificación financiera</h3>
-                <p>Aprende a estructurar un plan financiero sólido y eficiente para tus inversiones.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Inversiones -->
-    <section id="inversiones" class="section">
-        <h2>Tipos de Inversiones</h2>
-        <p>Explora las mejores oportunidades para invertir tu dinero de forma segura.</p>
-        <div class="content-grid">
-            <div class="content-item">
-                <h3>Acciones</h3>
-                <p>Invierte en el mercado de acciones para obtener grandes rendimientos.</p>
-            </div>
-            <div class="content-item">
-                <h3>Bienes raíces</h3>
-                <p>Aprende a invertir en propiedades inmobiliarias y maximizar tus ganancias.</p>
-            </div>
-            <div class="content-item">
-                <h3>Criptomonedas</h3>
-                <p>Descubre cómo empezar a invertir en el mundo de las criptomonedas.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Testimonios -->
-    <section class="testimonios">
-        <h2>Casos de Éxito</h2>
-        <div class="testimonial">
-            <p>"Invertir con esta plataforma me ha permitido lograr mis metas financieras mucho antes de lo que imaginaba." - Juan Pérez</p>
-        </div>
-        <div class="testimonial">
-            <p>"Gracias a los consejos de inversión que encontré aquí, ahora tengo múltiples fuentes de ingreso pasivo." - María García</p>
-        </div>
-    </section>
-
-    <!-- Sección Blog -->
-    <section id="blog" class="section">
-        <h2>Blog</h2>
-        <p>Lee nuestros artículos sobre el mundo de las inversiones y el mercado financiero.</p>
-        <div class="content-grid">
-            <div class="content-item">
-                <h3>Tendencias de Inversión 2025</h3>
-                <p>Descubre las mejores opciones de inversión para el año que viene.</p>
-            </div>
-            <div class="content-item">
-                <h3>Errores comunes al invertir</h3>
-                <p>Aprende a evitar los errores más comunes que los nuevos inversionistas suelen cometer.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección Contacto -->
-    <section id="contacto" class="section">
-        <h2>Contacto</h2>
-        <p>Si tienes preguntas o deseas más información, contáctanos hoy mismo.</p>
-        <form action="#" method="POST">
-            <input type="text" name="nombre" placeholder="Tu Nombre" required>
-            <input type="email" name="email" placeholder="Tu Email" required>
-            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
-            <button type="submit" class="btn-primary">Enviar</button>
-        </form>
-    </section>
-
-    <!-- Pie de página -->
-    <footer>
-        <div class="footer-content">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#inversiones">Inversiones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-            <p>&copy; 2025 Invierte Inteligente. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
+<!-- Sección de Servicios -->
+<section id="services" class="services-section">
+    <div class="services-container">
+        <h2>Servicios</h2>
+        <div class="services-list">
+            <div class="service-card">
+                <h3>Servicio 1</h3>
+                <p>Descripción breve de tu servicio 1.</p>
+            </div>
+            <div class="service-card">
+                <h3>Servicio 2</h3>
+                <p>Descripción breve de tu servicio 2.</p>
+            </div>
+            <div class="service-card">
+                <h3>Servicio 3</h3>
+                <p>Descripción breve de tu servicio 3.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Testimonios -->
+<section id="testimonials" class="testimonials-section">
+    <div class="testimonials-container">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonials-list">
+            <div class="testimonial-card">
+                <p>"Excelente servicio, la mejor atención que he recibido." - Cliente 1</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Muy recomendable, la experiencia fue única." - Cliente 2</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Un equipo profesional y dedicado. Muy satisfecho." - Cliente 3</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Servicios -->
+<section id="services" class="services-section">
+    <div class="services-container">
+        <h2>Servicios que ofrecemos</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Servicio 1</h3>
+                <p>Descripción breve de servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <h3>Servicio 2</h3>
+                <p>Descripción breve de servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="service-card">
+                <h3>Servicio 3</h3>
+                <p>Descripción breve de servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Testimonios -->
+<section id="testimonials" class="testimonials-section">
+    <div class="testimonials-container">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"Excelente servicio, muy atentos y profesionales. Totalmente recomendados." - Juan Pérez</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Una experiencia increíble, siempre dispuestos a ayudar y resolver cualquier duda." - María Gómez</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Muy satisfecho con la calidad de los productos y atención. Definitivamente volveré." - Carlos Rodríguez</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de Contacto -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2>Contactanos</h2>
+        <p>Si tenés alguna pregunta, no dudes en ponerte en contacto con nosotros. ¡Estamos aquí para ayudarte!</p>
+        <form action="/submit-form" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</section>
+<!-- Sección de Pie de Página -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="logo-footer.png" alt="Logo" class="logo-footer">
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">Instagram</a>
+        </div>
+        <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
+</footer>
