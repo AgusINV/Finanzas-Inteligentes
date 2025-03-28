@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finanzas Inteligentes: Aprende a gestionar tu dinero, ahorrar, invertir y tomar decisiones financieras inteligentes para alcanzar la independencia económica.">
+    <meta name="keywords" content="finanzas, dinero, educación financiera, inversiones, ahorro, economía personal, libertad financiera">
+    <meta property="og:title" content="Finanzas Inteligentes">
+    <meta property="og:description" content="Descubre cómo gestionar tu dinero, ahorrar e invertir para alcanzar la libertad financiera. Consejos prácticos para tu bienestar financiero.">
+    <meta property="og:image" content="images/hero-image.jpg">
+    <meta property="og:url" content="https://www.tusitio.com">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Finanzas Inteligentes">
     <title>Finanzas Inteligentes</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Código de Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1252573592879942"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 
     <!-- Encabezado -->
     <header>
         <h1>Finanzas Inteligentes</h1>
-        <p>Tu guía para aprender a gestionar tu dinero y hacer inversiones inteligentes</p>
+        <p>Tu guía para aprender a gestionar tu dinero, hacer inversiones inteligentes y alcanzar la libertad financiera.</p>
     </header>
 
     <!-- Menú de Navegación -->
@@ -25,8 +37,8 @@
         </ul>
     </nav>
 
-    <!-- Sección Hero -->
-    <section class="hero" id="inicio">
+    <!-- Sección Hero (con imagen de fondo) -->
+    <section class="hero" id="inicio" style="background-image: url('images/hero-image.jpg');">
         <h2>Convierte tu dinero en tu mejor aliado</h2>
         <p>Aprende sobre ahorro, inversión y gestión financiera para lograr la libertad financiera.</p>
         <a href="#educacion-financiera" class="btn">Descubre más</a>
@@ -37,7 +49,8 @@
         <h2>Educación Financiera</h2>
         <article>
             <h3>¿Por qué es importante gestionar bien tu dinero?</h3>
-            <p>Gestionar el dinero adecuadamente es fundamental para asegurar tu futuro. Aprender a ahorrar, invertir y gestionar tus gastos es clave para alcanzar la independencia financiera.</p>
+            <img src="images/gestion-dinero.jpg" alt="Persona gestionando su dinero" class="responsive-img" />
+            <p>Gestionar el dinero adecuadamente es fundamental para asegurar tu futuro. Aprender a ahorrar, invertir y gestionar tus gastos es clave para alcanzar la independencia financiera. Con estrategias adecuadas, cualquier persona puede optimizar su situación financiera y generar un futuro más seguro.</p>
         </article>
         <article>
             <h3>5 Consejos para mejorar tus finanzas personales</h3>
@@ -56,11 +69,13 @@
         <h2>Inversiones</h2>
         <article>
             <h3>Cómo empezar a invertir con poco dinero</h3>
-            <p>Invertir no siempre requiere grandes cantidades de dinero. Puedes comenzar con pequeñas cantidades y aprender en el camino. El mercado de valores, fondos indexados y bienes raíces son excelentes opciones para empezar.</p>
+            <img src="images/inversiones.jpg" alt="Persona aprendiendo a invertir" class="responsive-img" />
+            <p>Invertir no siempre requiere grandes cantidades de dinero. Puedes comenzar con pequeñas cantidades y aprender en el camino. El mercado de valores, fondos indexados y bienes raíces son excelentes opciones para empezar. No es necesario tener una gran fortuna para empezar a generar rendimientos, solo necesitas educación y paciencia.</p>
         </article>
         <article>
             <h3>Riesgos y recompensas de las inversiones</h3>
-            <p>Las inversiones pueden ser rentables, pero también conllevan riesgos. Es importante conocer los riesgos involucrados y tener una estrategia diversificada para proteger tu capital.</p>
+            <img src="images/riesgos-recompensas.jpg" alt="Gráfico de riesgos y recompensas en inversiones" class="responsive-img" />
+            <p>Las inversiones pueden ser rentables, pero también conllevan riesgos. Es importante conocer los riesgos involucrados y tener una estrategia diversificada para proteger tu capital. El equilibrio entre riesgos y recompensas es fundamental para una inversión exitosa.</p>
         </article>
     </section>
 
@@ -69,11 +84,13 @@
         <h2>Economía Global</h2>
         <article>
             <h3>Impacto de la inflación en tus finanzas</h3>
-            <p>La inflación puede afectar tu poder adquisitivo, pero también ofrece oportunidades de inversión. Es importante estar informado sobre las políticas económicas y ajustar tu estrategia financiera.</p>
+            <img src="images/inflacion.jpg" alt="Gráfico de impacto de la inflación" class="responsive-img" />
+            <p>La inflación puede afectar tu poder adquisitivo, pero también ofrece oportunidades de inversión. Es importante estar informado sobre las políticas económicas y ajustar tu estrategia financiera. Con una buena planificación, es posible proteger tu dinero de la inflación y aprovechar nuevas oportunidades.</p>
         </article>
         <article>
             <h3>Cómo los cambios en el mercado de divisas afectan a los inversionistas</h3>
-            <p>Los cambios en el mercado de divisas pueden afectar las inversiones internacionales. Entender cómo las fluctuaciones de la moneda impactan tus activos es esencial para una correcta planificación financiera.</p>
+            <img src="images/mercado-divisas.jpg" alt="Mercado de divisas afectando a los inversionistas" class="responsive-img" />
+            <p>Los cambios en el mercado de divisas pueden afectar las inversiones internacionales. Entender cómo las fluctuaciones de la moneda impactan tus activos es esencial para una correcta planificación financiera. La diversificación internacional puede ser una estrategia clave para mitigar estos riesgos.</p>
         </article>
     </section>
 
@@ -81,7 +98,7 @@
     <section id="contacto">
         <h2>Contacto</h2>
         <p>¿Tienes preguntas o necesitas más información? ¡Estamos aquí para ayudarte!</p>
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="contact-form">
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Correo electrónico:</label>
@@ -96,5 +113,18 @@
         <p>&copy; 2025 Finanzas Inteligentes. Todos los derechos reservados.</p>
     </footer>
 
+    <script>
+        // Validación simple del formulario
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+            
+            if (!name || !email || !message) {
+                alert("Por favor, completa todos los campos antes de enviar el formulario.");
+                event.preventDefault(); // Previene el envío si los campos están vacíos
+            }
+        });
+    </script>
 </body>
 </html>
